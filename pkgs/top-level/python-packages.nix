@@ -7267,6 +7267,8 @@ self: super: with self; {
 
   markdownify  = callPackage ../development/python-modules/markdownify { };
 
+  marko  = callPackage ../development/python-modules/marko { };
+
   markupsafe = callPackage ../development/python-modules/markupsafe { };
 
   markuppy = callPackage ../development/python-modules/markuppy { };
@@ -9694,6 +9696,8 @@ self: super: with self; {
 
   peco = callPackage ../development/python-modules/peco { };
 
+  petl = callPackage ../development/python-modules/petl { };
+
   pettingzoo = callPackage ../development/python-modules/pettingzoo { };
 
   peewee = callPackage ../development/python-modules/peewee { };
@@ -10665,6 +10669,8 @@ self: super: with self; {
   py17track = callPackage ../development/python-modules/py17track { };
 
   py2bit = callPackage ../development/python-modules/py2bit { };
+
+  py3amf = callPackage ../development/python-modules/py3amf { };
 
   py3buddy = toPythonModule (callPackage ../development/python-modules/py3buddy { });
 

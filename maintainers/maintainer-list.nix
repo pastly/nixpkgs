@@ -15249,6 +15249,12 @@
     githubId = 4580157;
     name = "Patrick Hobusch";
   };
+  paslty = {
+    email = "sirmatt@ksu.edu";
+    github = "pastly";
+    githubId = 9538998;
+    name = "Matt Traudt";
+  };
   patka = {
     email = "patka@patka.dev";
     github = "patka-123";
