@@ -7109,8 +7109,6 @@ self: super: with self; {
 
   luddite = callPackage ../development/python-modules/luddite { };
 
-  ludios_wpull = callPackage ../development/python-modules/ludios_wpull { };
-
   luftdaten = callPackage ../development/python-modules/luftdaten { };
 
   luhn = callPackage ../development/python-modules/luhn { };

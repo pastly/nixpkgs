@@ -8724,6 +8724,8 @@ with pkgs;
 
   lucky-cli = callPackage ../development/web/lucky-cli { };
 
+  ludios_wpull = python312Packages.callPackage ../by-name/lu/ludios_wpull/package.nix { };
+
   mac-fdisk = callPackage ../tools/system/mac-fdisk { };
 
   partclone = callPackage ../tools/backup/partclone { };
